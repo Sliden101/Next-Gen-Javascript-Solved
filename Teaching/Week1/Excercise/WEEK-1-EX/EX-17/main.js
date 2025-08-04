@@ -16,3 +16,11 @@ int main() {
 */
 
 // Your JavaScript code here:
+
+let arr = [10,55,63,20,90];
+
+for(let i = 0; i<5;i++){
+    if(arr[i] > 50){
+        console.log(arr[i]);
+    }
+}

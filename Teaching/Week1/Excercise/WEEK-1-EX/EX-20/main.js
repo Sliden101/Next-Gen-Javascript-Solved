@@ -26,3 +26,22 @@ int main() {
 */
 
 // Your JavaScript code here:
+
+let studentObjects = [
+    {
+        name: "Alice",
+        age: 20,
+    },
+    {
+        name: "Bob",
+        age: 22,
+    },
+    {
+        name: "Charlie",
+        age: 21,
+    }
+]
+
+for(let i = 0;i<3;i++){
+    console.log(studentObjects[i].name);
+}

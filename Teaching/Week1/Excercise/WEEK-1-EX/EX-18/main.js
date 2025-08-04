@@ -17,3 +17,11 @@ int main() {
 */
 
 // Your JavaScript code here:
+
+let count = 0; 
+for(let i = 1; i<=30; i++){
+    if(i % 2 == 0) count ++; 
+}
+console.log(`Total even numbers: ${count}`);
+
+
